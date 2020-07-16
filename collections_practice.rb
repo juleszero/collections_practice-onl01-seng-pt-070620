@@ -56,7 +56,6 @@ end
 #   puts "The line is currently: #{deli_line.join(" ")}"
   
   def add_s(array)
-    added = []
     array.each_with_index.collect do |word, index|
     if index != 2
     word << "s"
