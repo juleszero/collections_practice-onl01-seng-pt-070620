@@ -43,26 +43,14 @@ def sum_array(array)
   end
 end
 
-
-# def line(array)
-#   deli_line = []
-#   if array.length == 0
-#     puts "The line is currently empty."
-#   else
-#     array.each_with_index do |name, index|
-#       deli_line << "#{index+1}. #{name}"
-# <<<<<<< HEAD
-#   end
-#   puts "The line is currently: #{deli_line.join(" ")}"
-  
   def add_s(array)
     array.each_with_index.collect do |word, index|
     if index != 1
-    word << "s"
-  else
-    word
-  end
-  end
+      word << "s"
+    else
+      word
+    end
+    end
   end
   
   
