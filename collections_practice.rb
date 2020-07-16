@@ -39,8 +39,8 @@ def sum_array(array)
   if block_given?
     sum = []
     sum << array.inject
-  return sum
   end
+    return sum
 end
 
 def add_s(array)
