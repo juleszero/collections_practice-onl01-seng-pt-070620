@@ -38,6 +38,7 @@ end
 def sum_array(array)
   if block_given?
     array.inject do |num|
+      while i < array.length
       
   end  
   end
