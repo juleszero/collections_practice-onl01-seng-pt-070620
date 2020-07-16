@@ -37,8 +37,8 @@ end
 
 def sum_array(array)
   if block_given?
-    array.inject do |sum, n|
-      sum + n
+    array.inject do | |
+    
   end  
   end
 end
