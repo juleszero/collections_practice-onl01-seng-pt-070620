@@ -57,8 +57,9 @@ def line(array)
   
   def add_s(array)
     added = []
-    array.each_with_index.collect do |array, index|
-    
+    array.each_with_index.collect do |word, index|
+    if index != 2
+    word << "s"
   end
   end
   
